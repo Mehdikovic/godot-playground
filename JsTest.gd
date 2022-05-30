@@ -14,7 +14,7 @@ func _ready():
 
 
 func _on_user_log_in(obj):
-	console.log(obj)
+	console.log(obj[0])
 
 
 func _on_user_error_log_in(obj):
